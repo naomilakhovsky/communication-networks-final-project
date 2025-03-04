@@ -28,6 +28,10 @@ Everyday applications generate unique traffic patterns based on factors such as 
 - traffic_classifier.py – Implements machine learning models for traffic classification.
 
 All scripts are located in the /src/ directory and should be executed from within that directory.
+in order for the codes to run, create a new folder named "data", add everything that is inside the link below, and make sure the folder is located inside the project directory (next to "res" and "src" folders):
+
+https://drive.google.com/drive/folders/1uZ7eqTkb22XjuOciKxX2fZCMdHNW1r_x?usp=sharing
+
 
 ## Security and Privacy Considerations
 
