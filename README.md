@@ -59,7 +59,7 @@ After that, you can run the Python scripts located in the "src" directory, and t
 - The project simulates an attacker trying to infer user activity from encrypted traffic.
 - Various mitigation techniques (VPN, padding, randomized traffic patterns) are discussed to prevent traffic fingerprinting.
 
-## Authors
+#### Authors
 
 This project was conducted by Eitan Derdiger and Naomi Lakhovsky.
 
