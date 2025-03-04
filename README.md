@@ -21,17 +21,17 @@ The project includes an in-depth analysis of multiple research papers on encrypt
 - Novel techniques: Unique methodologies introduced, such as CNN-based FlowPic classification, early flow statistics, and QUIC padding analysis.
 - Key results: Performance metrics and comparisons with existing classification models.
 - Insights and impact: How the findings contribute to the broader field of encrypted traffic analysis and privacy concerns.
-- Key Research Findings:
+# Key Research Findings:
 
-- FlowPic (CNN-based Traffic Classification):
+# FlowPic (CNN-based Traffic Classification):
 Introduces FlowPic, which converts network traffic into 2D histograms and applies CNNs for classification.
 Achieves high accuracy (98.4%) for VPN traffic and performs well even with Tor encryption (85.7%).
 Works without requiring deep packet inspection, making it encryption-agnostic and suitable for real-world deployment.
-- hRFTC (Hybrid Random Forest Traffic Classifier for TLS 1.3 & QUIC):
+# hRFTC (Hybrid Random Forest Traffic Classifier for TLS 1.3 & QUIC):
 Addresses the challenges of Encrypted ClientHello (ECH) in TLS 1.3, which hides metadata that traditional classifiers rely on.
 Uses unencrypted TLS handshake elements + flow-based statistics for classification.
 Outperforms previous methods with a 94.6% F-score, even when training data is limited.
-- HTTPS-encrypted Traffic Fingerprinting:
+# HTTPS-encrypted Traffic Fingerprinting:
 Demonstrates that machine learning can identify a user’s OS, browser, and application based solely on encrypted traffic.
 Uses SVM with RBF kernel, reaching 96.06% accuracy.
 Highlights privacy risks and the need for defensive techniques like randomization and padding.
